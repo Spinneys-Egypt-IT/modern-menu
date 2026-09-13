@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import menuData from './data/spinneys.json';
+import menuData from './data/Spinneys.json';
 
 const MenuItem = ({ item }) => {
   const [imgFailed, setImgFailed] = useState(false);
